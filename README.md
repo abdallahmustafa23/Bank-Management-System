@@ -3,7 +3,7 @@
 A comprehensive C++ project designed to manage banking operations through three distinct development phases. This system handles multiple user roles including Clients, Employees, and Admins.
 
 ## 🚀 Project Overview
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/349e290f-6bff-4b15-bb2a-bae44afe89df" />
+![System Overview](overview.jpeg)
 The system is built with a focus on Object-Oriented Programming (OOP) principles, featuring inheritance (Person -> Client/Employee -> Admin) and a structured data management system using file handling.
 
 ### Key Modules:
