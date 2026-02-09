@@ -25,8 +25,8 @@ double Employee::get_salary() const {
 
 string Employee::getinfo() const
 {
-   retutn "Employee ID: " + to_string(id) + "\n";
-    + "Name: " + name + "\n";
-    + "Salary: " + to_string(salary) + "\n";
+   retutn "Employee ID: " + to_string(id) 
+    + "\nName: " + name 
+    + "\nSalary: " + to_string(salary) ;
    
 }
