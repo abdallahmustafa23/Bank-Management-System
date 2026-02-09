@@ -10,7 +10,7 @@ Admin::Admin(const string& name, const string& password, int id, double salary)
 
 string Admin::getinfo() const
 {
-    retutn "Admin ID: " + to_string(id) + "\n";
-    + "Name: " + name + "\n";
-    + "Salary: " + to_string(salary) + "\n";
+    retutn "Admin ID: " + to_string(id) 
+    + "\nName: " + name 
+    + "\nSalary: " + to_string(salary) ;
 }
