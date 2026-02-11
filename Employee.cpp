@@ -1,7 +1,5 @@
 #include "Employee.h"
-#include <iostream>
 
-using namespace std;
 
 Employee::Employee(const string& name, const string& password, int id, double salary)
     : Person(name, password, id), salary(0)
@@ -25,7 +23,7 @@ double Employee::get_salary() const {
 
 string Employee::getinfo() const
 {
-   retutn "Employee ID: " + to_string(id) 
+   return "Employee ID: " + to_string(id) 
     + "\nName: " + name 
     + "\nSalary: " + to_string(salary) ;
    
